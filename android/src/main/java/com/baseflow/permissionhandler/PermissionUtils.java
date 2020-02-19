@@ -4,9 +4,9 @@ import android.app.Activity;
 import android.content.Context;
 import android.content.SharedPreferences;
 import android.os.Build;
+import android.support.annotation.RequiresApi;
+import android.support.v4.app.ActivityCompat;
 
-import androidx.annotation.RequiresApi;
-import androidx.core.app.ActivityCompat;
 
 public class PermissionUtils {
 
